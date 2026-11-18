@@ -177,7 +177,7 @@ footer .footer-logo{
     margin-top: 8px;
     margin-bottom: 8px;
 }
-@media (min-width:320px){
+@media (min-width:320px) and (max-width:430px){
    
     header{
     background-color: #4A2414;
