@@ -50,7 +50,7 @@ header{
     padding: 5% 10%;
     width: 100%;
     height: 100vh;
-    background-image: url(../images/hero-menu.jpg);
+    background-image: url(images/hero-menu.jpg);
     background-position: center;
     background-size: cover;
      position: relative;
@@ -151,7 +151,7 @@ h2{
 
 }
 footer{
-   background-image: url(/images/footer-image.jpg);
+   background-image: url(images/footer-image.jpg);
    opacity: 0.6;
    height: 200px;
    width: 100%;
@@ -201,7 +201,7 @@ footer .footer-logo{
     padding: 5% 10%;
     width: 100%;
     height: 100vh;
-    background-image: url(../images/hero-menu.jpg);
+    background-image: url(images/hero-menu.jpg);
     background-position:left;
     background-size:cover;
      position: relative;
@@ -249,7 +249,7 @@ footer .footer-logo{
     font-style: italic;
 }
 footer{
-   background-image: url(/images/footer-image.jpg);
+   background-image: url(images/footer-image.jpg);
    opacity: 0.6;
    height: 150px;
    width: 100%;
@@ -350,7 +350,7 @@ h2{
   font-style: normal;
 }
     footer{
-   background-image: url(/images/footer-image.jpg);
+   background-image: url(images/footer-image.jpg);
    opacity: 0.6;
    height: 150px;
    width: 100%;
