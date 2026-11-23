@@ -129,7 +129,96 @@ footer .footer-logo{
     margin-top: 8px;
     margin-bottom: 8px;
 }
-@media (max-width:430px) {
+
+@media (max-width:320px) {
+     header{
+    background-color: #4A2414;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top:0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap: 50px;
+    padding: 0px 10px;
+}
+.nav-menu{
+    display: none;
+    visibility: hidden;
+}
+    .first-def{
+    flex-direction: column;
+     margin: 15px 15px 30px 15px;
+ }
+.first-def img{
+    margin: 10px;
+    width: 300px;
+    height: 250px;
+}
+.def{
+    margin: 15px;
+}
+.def h2{
+    font-size: 28px;
+    font-weight: 600;
+    color: #bc6c25;
+    /* margin: 15px; */
+}
+/* .second-def{
+    display: block;
+} */
+ .second-def{
+    flex-direction: column;
+     margin: 15px;
+ }
+
+.second-def > div:last-child {
+        order: -1;
+    }
+
+.second-def img{
+    margin: 10px;
+    width: 300px;
+    height: 250px;
+    order: -1;
+}
+footer{
+   background-image: url(../images/footer-image.jpg);
+   opacity: 0.6;
+   height: 120px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items:flex-start;
+   gap: 100px;
+   margin-top: 100px;
+}
+footer .footer-logo{
+    display: none;
+    visibility: hidden;
+   /*  display: block;
+    background-color: #fefae0;
+    margin-left: 50px; */
+}
+ .footer-title{
+    color: #fefae0;
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.footer-link{
+    font-size: 14px;
+    color: #fefae0;
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+}
+
+@media (min-width:326px) and (max-width:376px) {
     
     header{
     background-color: #4A2414;
@@ -189,7 +278,122 @@ footer .footer-logo{
     margin: 15px;
 }
 .def h2{
-    font-size: 45px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #bc6c25;
+    /* margin: 15px; */
+}
+/* .second-def{
+    display: block;
+} */
+ .second-def{
+    flex-direction: column;
+     margin: 15px;
+ }
+
+.second-def > div:last-child {
+        order: -1;
+    }
+
+.second-def img{
+    margin: 10px;
+    width: 360px;
+    height: 250px;
+    order: -1;
+}
+footer{
+   background-image: url(../images/footer-image.jpg);
+   opacity: 0.6;
+   height: 120px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items:flex-start;
+   gap: 100px;
+   margin-top: 100px;
+}
+footer .footer-logo{
+    display: none;
+    visibility: hidden;
+   /*  display: block;
+    background-color: #fefae0;
+    margin-left: 50px; */
+}
+ .footer-title{
+    color: #fefae0;
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.footer-link{
+    color: #fefae0;
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+}
+@media (min-width:377px) and (max-width:426px) {
+    
+    header{
+    background-color: #4A2414;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top:0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap: 50px;
+    padding: 0px 10px;
+}
+.nav-menu{
+    display: none;
+    visibility: hidden;
+}
+.hero{
+    padding: 5% 10%;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/hero-about.jpg);
+    background-position: center;
+    background-size: cover;
+     position: relative;
+     margin-bottom: 30px;
+}
+.text-hero{
+    position: absolute;
+    right: 20%;
+    top: 47%;
+    
+}
+.text-hero h1{
+    font-size: 65px;
+    color: #bc6c25 ;
+    line-height: 0.9;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 0px 0 0;
+} 
+/* .first-def{
+    display: block;
+} */
+ .first-def{
+    flex-direction: column;
+     margin: 15px 15px 30px 15px;
+ }
+.first-def img{
+    margin: 10px;
+    width: 360px;
+    height: 250px;
+}
+.def{
+    margin: 15px;
+}
+.def h2{
+    font-size: 43px;
     font-weight: 600;
     color: #bc6c25;
     /* margin: 15px; */
@@ -232,7 +436,7 @@ footer .footer-logo{
 }
  .footer-title{
     color: #fefae0;
-    font-size: 32px;
+    font-size: 23px;
     font-weight: 400;
     margin-bottom: 5px;
 }
@@ -241,8 +445,10 @@ footer .footer-logo{
     display: block;
     margin-top: 8px;
     margin-bottom: 8px;
+    font-size: 14px;
 }
 }
+
 @media (min-width:768px) and (max-width:840px) {
      header{
     background-color:#4A2414;

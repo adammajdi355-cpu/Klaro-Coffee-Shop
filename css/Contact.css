@@ -180,7 +180,273 @@ footer .footer-logo{
     margin-top: 8px;
     margin-bottom: 8px;
 }
-@media (max-width:430px) {
+@media (max-width:320px) {
+      header{
+    background-color: #4A2414;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top:0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap: 50px;
+    padding: 0px 10px;
+}
+.nav-menu{
+    display: none;
+    visibility: hidden;
+}
+.hero{
+    padding: 5% 10%;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/contact-hero.jpg);
+    background-position: center;
+    background-size: cover;
+     position: relative;
+     margin-bottom: 30px;
+}
+.text-hero{
+    position: absolute;
+    right: 14%;
+    top: 50%;
+    
+}
+.text-hero h1{
+    font-size: 50px;
+    color: #4A2414 ;
+    line-height: 0.9;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 0px 0 0;
+}
+  .full-contact{
+    display: block;
+    /* flex-direction: column;
+    justify-content: space-around;
+    align-items: center; */
+}  
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* align-items: left; */
+    /* gap: 50px; */
+}
+label{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+    margin: 6px 0px;
+    text-align: left;
+    color: #bc6c25;
+}
+input{
+    width: 200px;
+    height: 25px;
+    border: none;
+    border-radius: 30px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fefae0;
+    color: #4A2414;
+}
+textarea{
+    background-color: #fefae0;
+    color: #4A2414;
+    height: 130px;
+    width: 260px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+.contact-form button {
+    font-size: 17px;
+    border-radius: 50px;
+    background: linear-gradient(180deg, #4A2414, #bc6c25 );
+    border: none;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    height: 35px;
+    width: 100px;
+    color: #fefae0;
+    cursor: pointer;
+    transition: background 0.5s ease 0.2s;
+}
+.paragraph{
+    margin: 50px 50px 80px 50px;
+}
+.paragraph h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: #bc6c25;
+    margin-bottom: 5px;
+}
+.paragraph p{
+    font-size: 18px;
+}
+footer{
+   background-image: url(../images/footer-image.jpg);
+   opacity: 0.6;
+   height: 120px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items:flex-start;
+   gap: 100px;
+}
+footer .footer-logo{
+    display: none;
+    visibility: hidden;
+   /*  display: block;
+    background-color: #fefae0;
+    margin-left: 50px; */
+}
+ .footer-title{
+    color: #fefae0;
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.footer-link{
+    font-size: 14px;
+    color: #fefae0;
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+}
+@media (min-width:321px) and (max-width:376px) {
+     header{
+    background-color: #4A2414;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top:0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap: 50px;
+    padding: 0px 10px;
+}
+.nav-menu{
+    display: none;
+    visibility: hidden;
+}
+.hero{
+    padding: 5% 10%;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/contact-hero.jpg);
+    background-position: center;
+    background-size: cover;
+     position: relative;
+     margin-bottom: 30px;
+}
+.text-hero{
+    position: absolute;
+    right: 16%;
+    top: 50%;
+    
+}
+.text-hero h1{
+    font-size: 55px;
+    color: #4A2414 ;
+    line-height: 0.9;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 0px 0 0;
+}
+  .full-contact{
+    display: block;
+    /* flex-direction: column;
+    justify-content: space-around;
+    align-items: center; */
+}  
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* align-items: left; */
+    /* gap: 50px; */
+}
+input{
+    width: 200px;
+    height: 25px;
+    border: none;
+    border-radius: 30px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fefae0;
+    color: #4A2414;
+}
+textarea{
+    background-color: #fefae0;
+    color: #4A2414;
+    height: 130px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+.contact-form button{
+    margin-top: 30px;
+}
+.paragraph{
+    margin: 50px 50px 80px 50px;
+}
+.paragraph h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #bc6c25;
+    margin-bottom: 5px;
+}
+.paragraph p{
+    font-size: 18px;
+}
+footer{
+   background-image: url(../images/footer-image.jpg);
+   opacity: 0.6;
+   height: 120px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items:flex-start;
+   gap: 100px;
+}
+footer .footer-logo{
+    display: none;
+    visibility: hidden;
+   /*  display: block;
+    background-color: #fefae0;
+    margin-left: 50px; */
+}
+ .footer-title{
+    color: #fefae0;
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.footer-link{
+    font-size: 14px;
+    color: #fefae0;
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+}
+@media (min-width:377px) and (max-width:430px) {
      header{
     background-color: #4A2414;
     position: fixed;
@@ -265,7 +531,7 @@ textarea{
     margin: 50px 50px 80px 50px;
 }
 .paragraph h2{
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 700;
     color: #bc6c25;
     margin-bottom: 5px;
@@ -276,7 +542,7 @@ textarea{
 footer{
    background-image: url(../images/footer-image.jpg);
    opacity: 0.6;
-   height: 150px;
+   height: 120px;
    width: 100%;
    display: flex;
    justify-content: center;
@@ -292,7 +558,7 @@ footer .footer-logo{
 }
  .footer-title{
     color: #fefae0;
-    font-size: 32px;
+    font-size: 23px;
     font-weight: 400;
     margin-bottom: 5px;
 }
@@ -301,6 +567,7 @@ footer .footer-logo{
     display: block;
     margin-top: 8px;
     margin-bottom: 8px;
+    font-size: 14px;
 }
     
 }
